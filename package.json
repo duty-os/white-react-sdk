@@ -1,6 +1,6 @@
 {
   "name": "white-react-sdk",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "git@github.com:duty-os/white-react-sdk.git",
@@ -8,12 +8,14 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc -p ."
+    "clean": "rimraf dist",
+    "build": "yarn clean && tsc -p ."
   },
   "devDependencies": {
+    "rimraf": "^2.6.2",
     "typescript": "2.8.3"
   },
   "dependencies": {
-    "white-web-sdk": "^1.0.6"
+    "white-web-sdk": "1.1.0"
   }
 }
