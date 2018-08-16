@@ -1,0 +1,15 @@
+{
+  "name": "white-react-sdk",
+  "version": "1.0.7",
+  "main": "lib/index.js",
+  "repository": "git@github.com:duty-os/white-react-sdk.git",
+  "author": "Tao Zeyu",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "typescript": "2.8.3"
+  }
+}
