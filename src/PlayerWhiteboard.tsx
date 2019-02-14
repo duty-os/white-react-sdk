@@ -1,24 +1,24 @@
 import * as React from "react";
 
-import {Component, CSSProperties, ReactNode} from "react";
-import {Room} from "white-web-sdk";
+import {ReactNode, CSSProperties} from "react";
+import {Player} from "white-web-sdk";
 
-export type RoomWhiteboardProps = {
-    room: Room;
+export type PlayerWhiteboardProps = {
+    player: Player;
     className?: string;
     style?: CSSProperties;
     ref?: (elementRef: HTMLDivElement | null) => void;
 };
 
-export class RoomWhiteboard extends Component<RoomWhiteboardProps> {
+export class PlayerWhiteboard extends React.Component<PlayerWhiteboardProps> {
 
     private elementRef: HTMLDivElement | null = null;
 
-    public componentWillReceiveProps?(nextProps: Readonly<RoomWhiteboardProps>): void {
-        if (this.props.room !== nextProps.room) {
-            this.props.room.bindHtmlElement(null);
+    public componentWillReceiveProps?(nextProps: Readonly<PlayerWhiteboardProps>): void {
+        if (this.props.player !== nextProps.player) {
+            this.props.player.bindHtmlElement(null);
             if (this.elementRef) {
-                nextProps.room.bindHtmlElement(this.elementRef);
+                nextProps.player.bindHtmlElement(this.elementRef);
             }
         }
     }
@@ -26,7 +26,7 @@ export class RoomWhiteboard extends Component<RoomWhiteboardProps> {
     private setElementRef = (elementRef: HTMLDivElement | null): void => {
         if (this.elementRef !== elementRef) {
             this.elementRef = elementRef;
-            this.props.room.bindHtmlElement(elementRef);
+            this.props.player.bindHtmlElement(elementRef);
         }
         if (this.props.ref) {
             this.props.ref(elementRef);

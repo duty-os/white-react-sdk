@@ -143,15 +143,15 @@ query-string@5:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
-react-dom@^16.3.2:
-  version "16.6.3"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.6.3.tgz#8fa7ba6883c85211b8da2d0efeffc9d3825cccc0"
-  integrity sha512-8ugJWRCWLGXy+7PmNh8WJz3g1TaTUt1XyoIcFN+x0Zbkoz+KKdUyx1AQLYJdbFXjuF41Nmjn5+j//rxvhFjgSQ==
+react-dom@>=16.3.3:
+  version "16.8.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.1.tgz#ec860f98853d09d39bafd3a6f1e12389d283dbb4"
+  integrity sha512-N74IZUrPt6UiDjXaO7UbDDFXeUXnVhZzeRLy/6iqqN1ipfjrhR60Bp5NuBK+rv3GMdqdIuwIl22u1SYwf330bg==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.11.2"
+    scheduler "^0.13.1"
 
 react@^16.3.2:
   version "16.6.3"
@@ -178,6 +178,19 @@ scheduler@^0.11.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
+scheduler@^0.13.1:
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.1.tgz#1a217df1bfaabaf4f1b92a9127d5d732d85a9591"
+  integrity sha512-VJKOkiKIN2/6NOoexuypwSrybx13MY7NSy9RNt8wPvZDMRT1CW6qlpF5jXRToXNHz3uWzbm2elNpZfXfGPqP9A==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
+spark-md5@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/spark-md5/-/spark-md5-3.0.0.tgz#3722227c54e2faf24b1dc6d933cc144e6f71bfef"
+  integrity sha1-NyIifFTi+vJLHcbZM8wUTm9xv+8=
+
 strict-uri-encode@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
@@ -188,10 +201,10 @@ typescript@2.8.3:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.8.3.tgz#5d817f9b6f31bb871835f4edf0089f21abe6c170"
   integrity sha512-K7g15Bb6Ra4lKf7Iq2l/I5/En+hLIHmxWZGq3D4DIRNFxMNV6j2SHSvDOqs2tGd4UvD/fJvrwopzQXjLrT7Itw==
 
-white-web-sdk@1.3.7:
-  version "1.3.7"
-  resolved "https://registry.yarnpkg.com/white-web-sdk/-/white-web-sdk-1.3.7.tgz#cb201f10ce56cb66acec988a1f06756f2d8c67e5"
-  integrity sha512-Eq6LSVQhF13ZOE7MBfwuRGyGrc6Ha8RJZH/9oSuHJcqx8MOPUIZxE0ZUiUPrs67m61Wx1GhbQf3DA8J0hd4O6g==
+white-web-sdk@2.0.0-beta.2:
+  version "2.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/white-web-sdk/-/white-web-sdk-2.0.0-beta.2.tgz#32f4898b49841e31d32d2195ddfdb213f8a54f72"
+  integrity sha512-ieIM9QLQaxKGdBgas+m2spEIGaJr61LB9cGVKW3R3ArNef8lCyryRP2IBr5S6oZ7DSIBhHUro3/P0gB3KeZw4A==
   dependencies:
     "@types/node" "^10.3.3"
     "@types/query-string" "5"
@@ -200,7 +213,8 @@ white-web-sdk@1.3.7:
     csstype "^2.5.6"
     query-string "5"
     react "^16.3.2"
-    react-dom "^16.3.2"
+    react-dom ">=16.3.3"
+    spark-md5 "^3.0.0"
 
 wrappy@1:
   version "1.0.2"
