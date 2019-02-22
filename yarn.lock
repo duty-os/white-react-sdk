@@ -201,10 +201,15 @@ typescript@2.8.3:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.8.3.tgz#5d817f9b6f31bb871835f4edf0089f21abe6c170"
   integrity sha512-K7g15Bb6Ra4lKf7Iq2l/I5/En+hLIHmxWZGq3D4DIRNFxMNV6j2SHSvDOqs2tGd4UvD/fJvrwopzQXjLrT7Itw==
 
-white-web-sdk@2.0.0-beta.2:
-  version "2.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/white-web-sdk/-/white-web-sdk-2.0.0-beta.2.tgz#32f4898b49841e31d32d2195ddfdb213f8a54f72"
-  integrity sha512-ieIM9QLQaxKGdBgas+m2spEIGaJr61LB9cGVKW3R3ArNef8lCyryRP2IBr5S6oZ7DSIBhHUro3/P0gB3KeZw4A==
+uuid@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+  integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
+
+white-web-sdk@2.0.0-beta.3:
+  version "2.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/white-web-sdk/-/white-web-sdk-2.0.0-beta.3.tgz#997810ce80460aa4942fccc2887fdc12ec09ddbc"
+  integrity sha512-KG+Za9uTB8cpffaZBT9l3dXOsQQYvs3jY/3ZVB9BSYc4wCzimEOSt3HLb+/WHFvG9uqgqQFdEx4pgI5l38mSJg==
   dependencies:
     "@types/node" "^10.3.3"
     "@types/query-string" "5"
@@ -215,6 +220,7 @@ white-web-sdk@2.0.0-beta.2:
     react "^16.3.2"
     react-dom ">=16.3.3"
     spark-md5 "^3.0.0"
+    uuid "^3.3.2"
 
 wrappy@1:
   version "1.0.2"
