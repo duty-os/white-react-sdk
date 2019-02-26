@@ -206,10 +206,10 @@ uuid@^3.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
 
-white-web-sdk@2.0.0-beta.3:
-  version "2.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/white-web-sdk/-/white-web-sdk-2.0.0-beta.3.tgz#997810ce80460aa4942fccc2887fdc12ec09ddbc"
-  integrity sha512-KG+Za9uTB8cpffaZBT9l3dXOsQQYvs3jY/3ZVB9BSYc4wCzimEOSt3HLb+/WHFvG9uqgqQFdEx4pgI5l38mSJg==
+white-web-sdk@2.0.0-beta.4:
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/white-web-sdk/-/white-web-sdk-2.0.0-beta.4.tgz#3a7a74207fc19af0c63dc4556d032d80663d5efe"
+  integrity sha512-D71uMPAVduNMur4yOCluHgrFbiQAOatzUKR4mabKiCCFcrDeot6kScUYYf4EzRXMgLLQCJN7w/ea7QysMMHu5w==
   dependencies:
     "@types/node" "^10.3.3"
     "@types/query-string" "5"
