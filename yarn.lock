@@ -451,10 +451,10 @@ videojs-vtt.js@0.14.1:
   dependencies:
     global "^4.3.1"
 
-white-web-sdk@2.0.0-beta.6:
-  version "2.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/white-web-sdk/-/white-web-sdk-2.0.0-beta.6.tgz#c0ae77666ffaa9a24933db187ed62cc2a8ee2191"
-  integrity sha512-Mwt7LdsyqqviuJKeS5mhdXgiRkdLbQ6yzHakW/Ftpe5XTqhwt12snfeKjHsgvANiI1jFBN6/KYED7y52lP2Fzw==
+white-web-sdk@2.0.0-beta.7:
+  version "2.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/white-web-sdk/-/white-web-sdk-2.0.0-beta.7.tgz#5696902651cb8a2ee88580b513b728c4624ceb88"
+  integrity sha512-JLX5Y02Ru4/qrwWpwngAyAw+7v4d03txR6dKFlXbzck1ubqtCqAcIBgI/HLs1u3N6ifDdzxoU7TUGsmTZD9byQ==
   dependencies:
     "@types/node" "^10.3.3"
     "@types/query-string" "5"
