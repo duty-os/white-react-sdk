@@ -534,10 +534,10 @@ whatwg-fetch@>=0.10.0:
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.0.0.tgz#fc804e458cc460009b1a2b966bc8817d2578aefb"
   integrity sha512-9GSJUgz1D4MfyKU7KRqwOjXCXTqWdFNvEr7eUBYchQiVc744mqK/MzXPNR2WsPkmkOa4ywfg8C2n8h+13Bey1Q==
 
-white-web-sdk@2.0.0-beta.10:
-  version "2.0.0-beta.10"
-  resolved "https://registry.yarnpkg.com/white-web-sdk/-/white-web-sdk-2.0.0-beta.10.tgz#cffb7acdecbad1b3e49310d299c502d84858caa7"
-  integrity sha512-aPCdIKDshGILZ/ZjeFoj8RUeD1nJg0sDd5Q1BfpLZEVCPNdr2UmbS96lbAwZ5hHu4JqyKpqS9fEeAL8ciR1baA==
+white-web-sdk@2.0.0-beta.11:
+  version "2.0.0-beta.11"
+  resolved "https://registry.yarnpkg.com/white-web-sdk/-/white-web-sdk-2.0.0-beta.11.tgz#abdc38fdbb4ea4314f535ceabe31443aebbbd07d"
+  integrity sha512-sqnRn+uhMWhvgCuJ7NfOChbjavh3nLohxiNDUS1z2QQTJZ3zRxqNptnxRikAJebB79BaQAHp7uyHKfJExQ/ODg==
   dependencies:
     "@types/query-string" "5"
     "@types/react" "^16.8.8"
