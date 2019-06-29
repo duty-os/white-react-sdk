@@ -1,6 +1,6 @@
 {
   "name": "white-react-sdk",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "git@github.com:duty-os/white-react-sdk.git",
@@ -14,7 +14,7 @@
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "white-web-sdk": "2.2.0"
+    "white-web-sdk": "2.2.1"
   },
   "devDependencies": {
     "@types/react": "^16.8.8",
