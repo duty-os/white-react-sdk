@@ -617,10 +617,10 @@ videojs-vtt.js@0.14.1:
   dependencies:
     global "^4.3.1"
 
-white-web-sdk@2.3.18:
-  version "2.3.18"
-  resolved "https://registry.yarnpkg.com/white-web-sdk/-/white-web-sdk-2.3.18.tgz#eed456a7a4492f9f4aa59b77e8bf0b95ffa3cec0"
-  integrity sha512-MDjP5dCFabMoMJlojFd5IliiQGNUKqUrr83A4JYntEO5ehgjqZhcKCSYokA3QAGw92RugO76FxZwjPG64+mBZA==
+white-web-sdk@2.3.19:
+  version "2.3.19"
+  resolved "https://registry.yarnpkg.com/white-web-sdk/-/white-web-sdk-2.3.19.tgz#44e1b67424a96ddaa2052b7464366e0133cf8436"
+  integrity sha512-4uqW1u4MOxqr8+NMmeS+XPB600zfkAnLmpyzlMy/EpuZ9wzb0gl0yu3j6iHpnJdXrpLccThL3OQSKtBpCxvfTA==
   dependencies:
     bezier-js "^2.4.0"
     color "^3.1.2"
